@@ -1,3 +1,5 @@
 venv
 *.md
+!*.sample.md
 input_hosts.txt
+!*.sample.txt
