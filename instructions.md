@@ -46,5 +46,5 @@ The updated certificate inventory can be produced using the following steps:
 3. Setup and verify python3 from UPS using the command `setup python v3_9_13`.
 4. Change directory into the `certificate-inventory` directory and `source create_venv.sh` script, which creates a new virtual Python3 environment and activates it.
 5. Update the `input_hosts.txt` file to contain a complete list of URIs to be analyzed for their certificate expiration.
-6. Run the `run_certificate_inventory.py`` program using the command `python3 run_certificate_inventory.py -i input_hosts.txt -o certificate_inventory.md`.
+6. Run the `run_certificate_inventory.py` program using the command `python3 run_certificate_inventory.py -i input_hosts.txt -o certificate_inventory.md`.
 7. Finally, upload both the `input_hosts.txt` and `certificate_inventory.md` files to the server protected by SSO authentication. This step is important.
